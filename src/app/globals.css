@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Palette from the mockups (Limones — Mockups canvas). */
+@theme {
+  --color-ground: #f6f5f0;
+  --color-surface: #ffffff;
+  --color-ink: #1b1f1a;
+  --color-ink-2: #3d433b;
+  --color-muted: #5b6158;
+  --color-line: #e2e1da;
+  --color-line-2: #c9c8bf;
+  --color-track: #eeede6;
+  --color-brand: #2d6a3e;
+  --color-brand-dark: #1f4d2c;
+  --color-brand-soft: #e8f0e8;
+  --color-warn: #8a5a00;
+  --color-warn-ink: #5c3d00;
+  --color-warn-soft: #fff3d6;
+  --color-danger: #a1261b;
+  --color-wine: #6e1a2c;
+  --color-wine-soft: #fbeff0;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-ground);
+  color: var(--color-ink);
+}
